@@ -1,0 +1,20 @@
+title: Nanobiotechnology
+description: >-
+  Nanobiotechnology is considered to be the unique fusion of biotechnology and
+  nanotechnology. It is a multidisciplinary field that currently recruits
+  approach, technology and facility in advanced avenues of engineering, physics,
+  chemistry and biology.
+template:
+  repo: nanobiotechnology-template
+  name: nanobiotechnology
+before:
+  - type: createIssue
+    title: Welcome!
+    body: new-issue.md
+steps:
+  - title: First step
+    description: The first step in your course
+    event: issues.assigned
+    link: '{{ repoUrl }}'
+    actions:
+      - type: closeIssue
